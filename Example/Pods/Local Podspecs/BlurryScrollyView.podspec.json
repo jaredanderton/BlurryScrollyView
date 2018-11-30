@@ -1,0 +1,22 @@
+{
+  "name": "BlurryScrollyView",
+  "version": "0.1.0",
+  "summary": "A short description of BlurryScrollyView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Jared Anderton/BlurryScrollyView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Jared Anderton": "jared@andertondev.com"
+  },
+  "source": {
+    "git": "https://github.com/Jared Anderton/BlurryScrollyView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "BlurryScrollyView/Classes/**/*"
+}

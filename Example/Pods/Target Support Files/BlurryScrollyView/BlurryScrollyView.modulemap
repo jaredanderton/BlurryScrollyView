@@ -1,0 +1,6 @@
+framework module BlurryScrollyView {
+  umbrella header "BlurryScrollyView-umbrella.h"
+
+  export *
+  module * { export * }
+}

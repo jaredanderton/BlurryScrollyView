@@ -1,0 +1,6 @@
+framework module Pods_BlurryScrollyView_Example {
+  umbrella header "Pods-BlurryScrollyView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

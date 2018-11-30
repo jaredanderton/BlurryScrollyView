@@ -1,0 +1,16 @@
+PODS:
+  - BlurryScrollyView (0.1.0)
+
+DEPENDENCIES:
+  - BlurryScrollyView (from `../`)
+
+EXTERNAL SOURCES:
+  BlurryScrollyView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BlurryScrollyView: 49edcb4b1999bb92bd8fa8d0151bc52f4d44d8e4
+
+PODFILE CHECKSUM: 31b397559b70ef404c2c2274210581ef656fb98e
+
+COCOAPODS: 1.5.3
