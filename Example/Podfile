@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BlurryScrollyView_Example' do
+  pod 'BlurryScrollyView', :path => '../'
+
+  target 'BlurryScrollyView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
