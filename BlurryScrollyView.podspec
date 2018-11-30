@@ -31,6 +31,7 @@ A view that can blur an image while scrolling. Optionally, it can perform a zoom
   s.ios.deployment_target = '11.0'
 
   s.source_files = 'BlurryScrollyView/Classes/**/*'
+  s.swift_version = '4.2'
   
   # s.resource_bundles = {
   #   'BlurryScrollyView' => ['BlurryScrollyView/Assets/*.png']
