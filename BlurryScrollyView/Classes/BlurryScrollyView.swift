@@ -16,7 +16,7 @@ public class BlurryScrollyView: UIView {
     override public func didMoveToSuperview() {
         super.didMoveToSuperview()
         guard let superview = superview else { return }
-        superview.sendSubviewToBack(self)
+        superview.sendSubview(toBack:self)
         frame = superview.bounds
         
         addBlurryImage()
@@ -36,7 +36,7 @@ public class BlurryScrollyView: UIView {
         sharpImageView.image = imageToBlur
         sharpImageView.frame = frame
         addSubview(sharpImageView)
-        sendSubviewToBack(sharpImageView)
+        sendSubview(toBack: sharpImageView)
     }
     
     fileprivate func addBlurryImage() {
@@ -49,7 +49,7 @@ public class BlurryScrollyView: UIView {
         blurryImageView.addSubview(blurEffectView)
         
         addSubview(blurryImageView)
-        sendSubviewToBack(blurryImageView)
+        sendSubview(toBack: blurryImageView)
     }
     
     fileprivate func offsetDidChange(_ change: NSKeyValueObservedChange<CGPoint>) {

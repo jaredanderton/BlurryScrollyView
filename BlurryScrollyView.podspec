@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'BlurryScrollyView'
   s.version          = '0.1.0'
-  s.summary          = 'A view that can blur an image while scrolling. Optionally, it can perform a zoom for another cool effect.'
+  s.summary          = 'A view that can blur an image while scrolling.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
