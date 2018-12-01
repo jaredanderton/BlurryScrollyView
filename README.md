@@ -32,8 +32,11 @@ Add this to a `UIViewController`.`view`, when a scroll view is also used for scr
 }
 ```
 
-There are a few properties you cant se to tweak the amount of blur. You can also enabled/disabled the zoom effect that is on by default.
+There are a few properties you cant se to tweak the amount of blur. 
 
+You can also enabled/disabled the zoom effect that is on by default, and adjust the amount of zoom.
+
+You can also adjust the `UIBlurEffect.Style` of the blur.
 ```
 blurryScrollyView.blurEffectStyle = .regular
 blurryScrollyView.maxBlurryAlpha = 1.0
