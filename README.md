@@ -20,6 +20,14 @@ it, simply add the following line to your Podfile:
 pod 'BlurryScrollyView'
 ```
 
+## Demo
+<video width="320" height="240" controls>
+<source src="./animation.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+
+
+
 ## Usage
 Add this to a `UIViewController`.`view`, when a scroll view is also used for scrolling. When scrolling, the image will start to blur. The `BlurryScrollyView` is automatically send to the back of the view you are adding it to.
 ```override func viewDidLoad() {
@@ -31,12 +39,6 @@ Add this to a `UIViewController`.`view`, when a scroll view is also used for scr
     view.addSubview(blurryScrollyView)
 }
 ```
-
-## Demo
-<video width="320" height="240" controls>
-    <source src="animation.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-</video>
 
 There are a few properties you cant se to tweak the amount of blur. 
 
