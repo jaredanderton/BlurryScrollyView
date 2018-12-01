@@ -21,11 +21,13 @@ pod 'BlurryScrollyView'
 ```
 
 ## Demo
-<video width="320" height="240" controls>
-<source src="https://github.com/jaredanderton/BlurryScrollyView/raw/master/animation.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video>
 
+
+<div class="video_container">
+    <video controls="controls">
+    <source src="https://github.com/jaredanderton/BlurryScrollyView/raw/master/animation.mp4" type="video/mp4">
+    </video> 
+</div>
 
 
 ## Usage
