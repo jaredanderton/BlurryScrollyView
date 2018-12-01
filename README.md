@@ -22,11 +22,8 @@ pod 'BlurryScrollyView'
 
 ## Demo
 
-<div>
-    <video>
-        <source src="https://github.com/jaredanderton/BlurryScrollyView/raw/master/animation.mp4" type="video/mp4">
-    </video> 
-</div>
+![Alt Text](https://github.com/jaredanderton/BlurryScrollyView/raw/master/animation.gif)
+
 
 ## Usage
 Add this to a `UIViewController`.`view`, when a scroll view is also used for scrolling. When scrolling, the image will start to blur. The `BlurryScrollyView` is automatically send to the back of the view you are adding it to.
