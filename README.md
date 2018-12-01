@@ -1,6 +1,6 @@
 # BlurryScrollyView
 
-[![CI Status](https://img.shields.io/travis/Jared Anderton/BlurryScrollyView.svg?style=flat)](https://travis-ci.org/Jared Anderton/BlurryScrollyView)
+
 [![Version](https://img.shields.io/cocoapods/v/BlurryScrollyView.svg?style=flat)](https://cocoapods.org/pods/BlurryScrollyView)
 [![License](https://img.shields.io/cocoapods/l/BlurryScrollyView.svg?style=flat)](https://cocoapods.org/pods/BlurryScrollyView)
 [![Platform](https://img.shields.io/cocoapods/p/BlurryScrollyView.svg?style=flat)](https://cocoapods.org/pods/BlurryScrollyView)
@@ -19,6 +19,29 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'BlurryScrollyView'
 ```
+
+## Usage
+Add this to a `UIViewController`.`view`, when a scroll view is also used for scrolling. When scrolling, the image will start to blur.
+```override func viewDidLoad() {
+    super.viewDidLoad()
+    
+    let blurryScrollyView = BlurryScrollyView()
+    blurryScrollyView.imageToBlur = UIImage(named: "sunset")
+    blurryScrollyView.delegateScrollView = scrollView
+    view.addSubview(blurryScrollyView)
+}
+```
+
+There are a few properties you cant se to tweak the amount of blur. You can also enabled/disabled the zoom effect that is on by default.
+
+```
+blurryScrollyView.blurEffectStyle = .regular
+blurryScrollyView.maxBlurryAlpha = 1.0
+blurryScrollyView.enableZoom = true
+blurryScrollyView.maxImageZoom = 0.5
+```
+
+
 
 ## Author
 
