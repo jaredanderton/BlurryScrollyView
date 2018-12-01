@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BlurryScrollyView'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'A view that can blur an image while scrolling.'
 
 # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ A view that can blur an image while scrolling. Optionally, it can perform a zoom
   s.source           = { :git => 'https://github.com/jaredanderton/BlurryScrollyView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'BlurryScrollyView/Classes/**/*'
   s.swift_version = '4.0'
