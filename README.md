@@ -32,9 +32,10 @@ Add this to a `UIViewController`.`view`, when a scroll view is also used for scr
 }
 ```
 
+## Demo
 <video width="320" height="240" controls>
-<source src="animation.mp4" type="video/mp4">
-Your browser does not support the video tag.
+    <source src="animation.mp4" type="video/mp4">
+    Your browser does not support the video tag.
 </video>
 
 There are a few properties you cant se to tweak the amount of blur. 
