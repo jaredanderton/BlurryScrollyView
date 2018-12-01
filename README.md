@@ -21,7 +21,7 @@ pod 'BlurryScrollyView'
 ```
 
 ## Usage
-Add this to a `UIViewController`.`view`, when a scroll view is also used for scrolling. When scrolling, the image will start to blur.
+Add this to a `UIViewController`.`view`, when a scroll view is also used for scrolling. When scrolling, the image will start to blur. The `BlurryScrollyView` is automatically send to the back of the view you are adding it to.
 ```override func viewDidLoad() {
     super.viewDidLoad()
     
